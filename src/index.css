@@ -1,0 +1,30 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.navbar {
+  background: rgb(161, 160, 160);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.navbar h1 {
+  font-weight: bold;
+  margin: 0;
+}
+.home-content{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: initial;
+}
+.main-container {
+  display: flex;
+  flex: 1;
+}
